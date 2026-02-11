@@ -4,7 +4,7 @@ pipeline{
         maven 'MAVEN'
     }
     environment{
-        APP_DIR="/opt/spring-app"
+        APP_DIR="/opt/springboot-app"
         JAR_JAR="app.jar"
         BUILD_JAR="target/demo-0.0.2-SNAPSHOT.jar"
         
@@ -36,5 +36,6 @@ pipeline{
         }
     }
 }
+
 
 
